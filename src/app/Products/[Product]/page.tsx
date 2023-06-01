@@ -9,7 +9,7 @@ export default async function Product({params}:{params:{Product: string}}){
     return(
         <div>
             <h1>{res.id}</h1>
-            <b>{res.title}</b>
+            <p>{res.title}</p>
             <p>{res.body}</p>
 
            <div>
